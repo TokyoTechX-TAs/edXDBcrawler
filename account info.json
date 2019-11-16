@@ -1,10 +1,4 @@
 {
-    "edXaccount": "oedo-db@citl.titech.ac.jp",
-    "edXpassword": "t2xt2xt2X",
-    "email_body_template": "message.txt",
-    "email_body_error_template": "error_message.txt",
-    "host_address": "oedotitech.db@gmail.com",
-    "host_port": "587",
-    "host_pwd": "t2xt2xt2X",
-    "host_smtp": "smtp.gmail.com"
+    "edXaccount": "AddYouredXAccount@mail",
+    "edXpassword": "AddYouredXPWD",
 }
