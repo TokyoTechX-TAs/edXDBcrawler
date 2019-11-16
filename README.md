@@ -16,7 +16,7 @@ Before running, please make sure that the desired course(s) have already been li
 4) open terminal and change a directory to the DB crawler folder 
 5) Run a python script `edx-discussion.py` with the following command 
 
-	'python edx-discussion.py'
+	`python edx-discussion.py`
 
 6) The program will ask you the option for crawling.
 -  type 1 and press enter if you want to manually select courses to be crawled
