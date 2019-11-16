@@ -13,14 +13,15 @@ Before running, please make sure that the desired course(s) have already been li
 1) Download Chrome webdriver from the link provided at Prerequisites.
 2) Add your edX account and password at "account info.json"
 3) (Optional) add the desired edX course URLs in "course table.xlsx" 
-4) Run a python script `edx-discussion.py` 
+4) open terminal and change a directory to the DB crawler folder 
+5) Run a python script `edx-discussion.py` with the following command 
 
-	python edx-discussion.py 
+	'python edx-discussion.py'
 
-5) The program will ask you the option for crawling.
-5.1) type 1 and press enter if you want to manually select courses to be crawled
-5.2) type any number and press enter if you want the program to crawl courses listed in course table.xlsx file
-6) the crawler starts
+6) The program will ask you the option for crawling.
+-  type 1 and press enter if you want to manually select courses to be crawled
+-  type any number and press enter if you want the program to crawl courses listed in course table.xlsx file
+7) the crawler starts
 	
 The output is a JSON file ('all_dis2.json'), which is stored by default in "HTMLs\[COURSE_NAME]" folder .
 
@@ -31,4 +32,4 @@ The output is a JSON file ('all_dis2.json'), which is stored by default in "HTML
 [DATETIME]_logfile_discussion.csv is the log file
 
 ## Test environment
-Python 3.5, Windows 10
+Python 3.5, Windows 10 and Ubuntu 14 and 16
