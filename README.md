@@ -9,18 +9,20 @@ Python libraries and modules:
 * [Selenium with Python](https://selenium-python.readthedocs.io/) - API to access webdriver
 * [Chrome webdriver](http://chromedriver.chromium.org/downloads) - Chrome webdriver which requires the installation of official Chrome brower.  
 ## How to run
-
-1) Run a python script `edx-discussion.py` 
+Before running, please make sure that the desired course(s) have already been listed in dashboard of your edx account.  
+1) Download Chrome webdriver from the link provided at Prerequisites.
+2) Add your edX account and password at "account info.json"
+3) (Optional) add the desired edX course URLs in "course table.xlsx" 
+4) Run a python script `edx-discussion.py` 
 
 	python edx-discussion.py 
 
-2) input your edX user and password at terminal, and press enter.
-3) The chromedriver will be opened and attempt to log-in into edX dashboard
-4) You will be asked how many courses you want to crawl, enter number and press enter
-5) The terminal will return list of courses in your dashboard together with respective course index, enter course index and press enter
+5) The program will ask you the option for crawling.
+5.1) type 1 and press enter if you want to manually select courses to be crawled
+5.2) type any number and press enter if you want the program to crawl courses listed in course table.xlsx file
 6) the crawler starts
 	
-The output is a JSON file ('all_dis.json'), which is stored by default in "HTMLs\[COURSE_NAME]" folder .
+The output is a JSON file ('all_dis2.json'), which is stored by default in "HTMLs\[COURSE_NAME]" folder .
 
 
 ## Extra files and folders
